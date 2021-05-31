@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ctp:container-type xmlns:ctp="http://genologics.com/ri/containertype" uri="https://develop/api/v2/containertypes/13" name="Patterned Flow Cell">
+    <is-tube>false</is-tube>
+    <x-dimension>
+        <is-alpha>false</is-alpha>
+        <offset>1</offset>
+        <size>1</size>
+    </x-dimension>
+    <y-dimension>
+        <is-alpha>false</is-alpha>
+        <offset>1</offset>
+        <size>8</size>
+    </y-dimension>
+</ctp:container-type>

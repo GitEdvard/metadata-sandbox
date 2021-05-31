@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<art:artifact xmlns:udf="http://genologics.com/ri/userdefined" xmlns:file="http://genologics.com/ri/file" xmlns:art="http://genologics.com/ri/artifact" uri="https://develop/api/v2/artifacts/2-158980?state=100234" limsid="2-158980">
+    <name>HKV5JCCXY: RB-1754_Pool1_27617_1.5nM_180424</name>
+    <type>Analyte</type>
+    <output-type>Analyte</output-type>
+    <parent-process uri="https://develop/api/v2/processes/24-27978" limsid="24-27978"/>
+    <qc-flag>UNKNOWN</qc-flag>
+    <location>
+        <container uri="https://develop/api/v2/containers/27-4492" limsid="27-4492"/>
+        <value>1:1</value>
+    </location>
+    <working-flag>true</working-flag>
+    <sample uri="https://develop/api/v2/samples/STL514A1" limsid="STL514A1"/>
+    <sample uri="https://develop/api/v2/samples/9C-1126" limsid="9C-1126"/>
+    <reagent-label name="AD018"/>
+    <control-type uri="https://develop/api/v2/controltypes/9"/>
+    <udf:field type="Numeric" name="% Aligned R1">1.3202481667200725</udf:field>
+    <udf:field type="Numeric" name="% Aligned R2">1.2984943017363548</udf:field>
+    <udf:field type="Numeric" name="% Bases &gt;=Q30 R1">93.85716165678015</udf:field>
+    <udf:field type="Numeric" name="% Bases &gt;=Q30 R2">88.8894234355358</udf:field>
+    <udf:field type="Numeric" name="% Error Rate R1">0.4232018664978548</udf:field>
+    <udf:field type="Numeric" name="% Error Rate R2">0.622056950508203</udf:field>
+    <udf:field type="Numeric" name="% Intensity Cycle 20 R1">88.99427344309234</udf:field>
+    <udf:field type="Numeric" name="% Intensity Cycle 20 R2">466.86070686070684</udf:field>
+    <udf:field type="Numeric" name="% Phasing R1">0.09914309018010196</udf:field>
+    <udf:field type="Numeric" name="% Phasing R2">0.11753629260056186</udf:field>
+    <udf:field type="Numeric" name="% Prephasing R1">0.05054367111370084</udf:field>
+    <udf:field type="Numeric" name="% Prephasing R2">0.06049584993282527</udf:field>
+    <udf:field type="Numeric" name="%PF R1">70.37311989194578</udf:field>
+    <udf:field type="Numeric" name="%PF R2">70.37311989194578</udf:field>
+    <udf:field type="Numeric" name="Avg Q Score R1">38.79480084602309</udf:field>
+    <udf:field type="Numeric" name="Avg Q Score R2">37.40720830843784</udf:field>
+    <udf:field type="String" name="cBot Instrument">4</udf:field>
+    <udf:field type="String" name="cBot PE cluster plate (barcode)">HS7486638-PC2</udf:field>
+    <udf:field type="Numeric" name="Cluster Density (K/mm^2) R1">2355.11925</udf:field>
+    <udf:field type="Numeric" name="Cluster Density (K/mm^2) R2">2355.11925</udf:field>
+    <udf:field type="Numeric" name="Clusters PF R1">437165635</udf:field>
+    <udf:field type="Numeric" name="Clusters PF R2">437165635</udf:field>
+    <udf:field type="Numeric" name="Clusters Raw R1">621211104</udf:field>
+    <udf:field type="Numeric" name="Clusters Raw R2">621211104</udf:field>
+    <udf:field type="Numeric" name="Current sample volume (ul)">12</udf:field>
+    <udf:field type="Numeric" name="Dil. calc. source vol">0</udf:field>
+    <udf:field type="String" name="EPX1 (barcode)">HS8945054-EPX1</udf:field>
+    <udf:field type="String" name="EPX2 (barcode)">HS4955048-EPX2</udf:field>
+    <udf:field type="String" name="EPX3 (barcode)">HS8399189-EPX3</udf:field>
+    <udf:field type="String" name="Flowcell lot# (barcode)">20226550</udf:field>
+    <udf:field type="String" name="HiSeq cBot Manifold lot# (barcode)">10180032</udf:field>
+    <udf:field type="Numeric" name="Intensity Cycle 1 R1">291.0416666666667</udf:field>
+    <udf:field type="Numeric" name="Intensity Cycle 1 R2">50.104166666666664</udf:field>
+    <udf:field type="Numeric" name="Yield PF (Gb) R1">65.57484525</udf:field>
+    <udf:field type="Numeric" name="Yield PF (Gb) R2">65.57484525</udf:field>
+    <workflow-stages>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reagent Registration (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/305/stages/2170"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reagent Registration (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/304/stages/2280"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reagent Registration (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/355/stages/3142"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reagent Registration (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/354/stages/3094"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reagent Registration (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/357/stages/3047"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/357/stages/3048"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/354/stages/3095"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/355/stages/3143"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/304/stages/2281"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/305/stages/2171"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/305/stages/2171"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/355/stages/3143"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/304/stages/2281"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/354/stages/3095"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start Illumina Sequencing (HiSeq X) v2" uri="https://develop/api/v2/configuration/workflows/357/stages/3048"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3049"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3096"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2282"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3144"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2172"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3144"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2172"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2282"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3096"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3049"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3049"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3096"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2172"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2282"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3144"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3144"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2282"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2172"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3096"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3049"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3049"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3096"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2172"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2282"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Check QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3144"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Rsync to Uppmax v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3145"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Rsync to Uppmax v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2283"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Rsync to Uppmax v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2173"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Rsync to Uppmax v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3097"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Rsync to Uppmax v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3050"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Archive to PDC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3051"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Archive to PDC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3098"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Archive to PDC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2174"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Archive to PDC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2284"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Archive to PDC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3146"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Summary reports v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3147"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Summary reports v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2285"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Summary reports v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2175"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Summary reports v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3099"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Summary reports v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3052"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Organize and start analysis v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3053"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Organize and start analysis v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2176"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Organize and start analysis v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3100"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Organize and start analysis v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2286"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Organize and start analysis v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3148"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Analysis v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3149"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Analysis v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3101"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Analysis v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2287"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Analysis v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2177"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - Analysis v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3054"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3055"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2178"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2288"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3102"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3150"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3150"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3102"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2288"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2178"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Best practice - QC v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3055"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start delivery v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3056"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start delivery v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2179"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start delivery v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2289"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start delivery v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3103"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Start delivery v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3151"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Delivery v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3152"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Delivery v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3104"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Delivery v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2290"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Delivery v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2180"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Delivery v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3057"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reporting choice v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2181"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reporting choice v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3058"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reporting choice v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2291"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reporting choice v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3105"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Reporting choice v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3153"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ HiSeq X deliveries v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3154"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ HiSeq X deliveries v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3106"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ HiSeq X deliveries v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2292"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ HiSeq X deliveries v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3059"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ HiSeq X deliveries v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2182"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Final Step reporting v1" uri="https://develop/api/v2/configuration/workflows/357/stages/3064"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Final Step reporting v1" uri="https://develop/api/v2/configuration/workflows/305/stages/2187"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Final Step reporting v1" uri="https://develop/api/v2/configuration/workflows/304/stages/2297"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Final Step reporting v1" uri="https://develop/api/v2/configuration/workflows/354/stages/3111"/>
+        <workflow-stage status="COMPLETE" name="SNP&amp;SEQ Final Step reporting v1" uri="https://develop/api/v2/configuration/workflows/355/stages/3159"/>
+    </workflow-stages>
+</art:artifact>

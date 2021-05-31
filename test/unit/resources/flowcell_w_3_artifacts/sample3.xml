@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<smp:sample xmlns:udf="http://genologics.com/ri/userdefined" xmlns:ri="http://genologics.com/ri" xmlns:file="http://genologics.com/ri/file" xmlns:smp="http://genologics.com/ri/sample" uri="https://develop/api/v2/samples/STL514A3" limsid="STL514A3">
+    <name>RB-1754-4429</name>
+    <date-received>2018-03-23</date-received>
+    <date-completed>2018-10-22</date-completed>
+    <project limsid="STL514" uri="https://develop/api/v2/projects/STL514"/>
+    <submitter uri="https://develop/api/v2/researchers/104">
+        <first-name>Johanna</first-name>
+        <last-name>Lagensjo</last-name>
+    </submitter>
+    <artifact limsid="STL514A3PA1" uri="https://develop/api/v2/artifacts/STL514A3PA1?state=88560"/>
+    <udf:field type="String" name="Progress">Library preparation and QC validation complete</udf:field>
+    <udf:field type="String" name="Read Length">151x2</udf:field>
+    <udf:field type="Numeric" name="Sample Conc.">83.2</udf:field>
+    <udf:field type="String" name="Sample Type">gDNA</udf:field>
+    <udf:field type="Numeric" name="Volume (uL)">50</udf:field>
+    <udf:field type="Numeric" name="# of libraries per sample">2</udf:field>
+    <udf:field type="Numeric" name="Current sample volume (ul)">12</udf:field>
+    <udf:field type="String" name="Custom sequencing primer">No</udf:field>
+    <udf:field type="Numeric" name="Insert size (bp)">350</udf:field>
+    <udf:field type="String" name="Library preparation kit">TruSeq DNA PCR-Free Sample Preparation kit LT</udf:field>
+    <udf:field type="String" name="Number of lanes">1 lane/library</udf:field>
+    <udf:field type="String" name="Genotyping ID-panel">Yes</udf:field>
+    <udf:field type="String" name="PhiX %">1</udf:field>
+    <udf:field type="String" name="Plate #">RB-1754 #1 180322</udf:field>
+    <udf:field type="String" name="Seq data (coverage x)">60x</udf:field>
+    <udf:field type="String" name="Sequencing instrument">HiSeqX</udf:field>
+    <udf:field type="String" name="Species">Human (Homo sapiens, GRCh37)</udf:field>
+    <udf:field type="String" name="conc FC">150 pM</udf:field>
+    <udf:field type="String" name="Special info prep">No</udf:field>
+    <udf:field type="String" name="Special info seq">No</udf:field>
+    <udf:field type="String" name="Data analysis">NGI-pipeline WGS</udf:field>
+    <udf:field type="String" name="Application">WG re-seq Human</udf:field>
+    <udf:field type="String" name="Pooling">No</udf:field>
+</smp:sample>

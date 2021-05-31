@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<smp:sample xmlns:udf="http://genologics.com/ri/userdefined" xmlns:ri="http://genologics.com/ri" xmlns:file="http://genologics.com/ri/file" xmlns:smp="http://genologics.com/ri/sample" uri="https://develop/api/v2/samples/9C-1126" limsid="9C-1126">
+    <name>PhiX v3</name>
+    <date-received>2018-04-24</date-received>
+    <submitter uri="https://develop/api/v2/researchers/404">
+        <first-name>Maria</first-name>
+        <last-name>Hagglund</last-name>
+    </submitter>
+    <artifact limsid="9C-1126PA1" uri="https://develop/api/v2/artifacts/9C-1126PA1?state=98254"/>
+    <control-type name="PhiX v3" uri="https://develop/api/v2/controltypes/9"/>
+</smp:sample>

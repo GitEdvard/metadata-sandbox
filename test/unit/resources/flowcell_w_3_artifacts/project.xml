@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prj:project xmlns:udf="http://genologics.com/ri/userdefined" xmlns:ri="http://genologics.com/ri" xmlns:file="http://genologics.com/ri/file" xmlns:prj="http://genologics.com/ri/project" uri="https://develop/api/v2/projects/STL514" limsid="STL514">
+    <name>RB-1754</name>
+    <open-date>2018-03-23</open-date>
+    <close-date>2018-10-22</close-date>
+    <researcher uri="https://develop/api/v2/researchers/621"/>
+    <udf:field type="Text" name="Important project information">-</udf:field>
+    <udf:field type="String" name="Project coordinator">Ellenor Devine</udf:field>
+    <udf:field type="String" name="Affiliation PI">Uppsala universitet</udf:field>
+    <udf:field type="Text" name="PI postal adress">Department of Surgical Sciences,
+Akademiska sjukhuset ing 70 1 tr
+751 85 UPPSALA</udf:field>
+    <udf:field type="String" name="Email of PI">peter.stalberg@surgsci.uu.se </udf:field>
+    <udf:field type="String" name="Phone of PI">+46703169667 </udf:field>
+    <udf:field type="String" name="Name of primary contact">Samuel Backman</udf:field>
+    <udf:field type="String" name="Email of primary contact">samuel.backman@surgsci.uu.se </udf:field>
+    <udf:field type="String" name="Phone of primary contact">+46722326618 </udf:field>
+    <udf:field type="String" name="Name of bioinformatics responsible person">-</udf:field>
+    <udf:field type="String" name="Email of bioinformatics responsible person">-</udf:field>
+    <udf:field type="String" name="Will sequencing this project generate personal data according to definitions in Regulations (EU) 2016/679">Yes</udf:field>
+    <udf:field type="Text" name="Amount of data required">7 prover, 60X per prov</udf:field>
+    <udf:field type="Text" name="Invoice adress">Uppsala Universitet</udf:field>
+    <udf:field type="String" name="Invoice reference">ref 463 </udf:field>
+    <udf:field type="String" name="Ethic permission">Yes</udf:field>
+    <udf:field type="String" name="Ethic permission number"> 2014/413 </udf:field>
+    <udf:field type="String" name="Project funding">Other</udf:field>
+    <udf:field type="String" name="Project funding (if other)">Selanders, Göran Gustavsson, Bengt Ihre stiftelser </udf:field>
+    <udf:field type="String" name="Project category">Health</udf:field>
+    <udf:field type="String" name="Type of sample">DNA</udf:field>
+    <udf:field type="String" name="Kit for library preparation">TruSeq DNA PCR-Free Sample Preparation Kit LT</udf:field>
+    <udf:field type="String" name="Sequencing instrument">HiSeqX</udf:field>
+    <udf:field type="String" name="Read length bp">150x2</udf:field>
+    <udf:field type="Date" name="Quote valid from">2018-03-02</udf:field>
+    <udf:field type="Date" name="Quote valid to">2018-06-30</udf:field>
+    <udf:field type="Date" name="Signed quote recived">2018-03-08</udf:field>
+    <udf:field type="String" name="Level of accrediation">Fully accredited</udf:field>
+    <udf:field type="Text" name="Comments data delivery">7 prover 60x lev 180904. Allt ok. JL</udf:field>
+    <udf:field type="Date" name="Date for final data delivery">2018-09-04</udf:field>
+    <udf:field type="Text" name="Comments invoicing">*USD-SEK exhange rate: 8.96
+* Skickar ej kundundersökning då de fick en i januari 2018. JL</udf:field>
+    <udf:field type="Date" name="Date for final invoice">2018-10-22</udf:field>
+    <udf:field type="Date" name="Samples destroyed">2020-08-19</udf:field>
+    <udf:field type="String" name="Comment samples returned/destroyed">Pool plattor destruerade 190403 HL/spädning slängd190405EO ORG platta slängd 200819 HL</udf:field>
+    <udf:field type="Text" name="Deviations (# in Canea)">-</udf:field>
+    <udf:field type="Text" name="Information QC">-</udf:field>
+    <udf:field type="String" name="Project name (from NGI-portal)">Continuation of MEN1 WGS </udf:field>
+    <udf:field type="URI" name="Link to NGI-portal">https://ngisweden.scilifelab.se/order/NGI05427</udf:field>
+    <udf:field type="String" name="Application">WG re-seq Human</udf:field>
+    <udf:field type="String" name="Species">Human (Homo sapiens, GRCh37) </udf:field>
+    <udf:field type="Text" name="Project decription">Following WGS in whole blood from MEN1 gene negative patients, 7 true negative remains in which we will sequence corresponding tumor tissue.
+It would be preferable to use the same reference genome as in project PD-1101 (Hg19) = Kontrollerat med Pontus. Är ok och vi har inte bytt. 180302 ED</udf:field>
+    <udf:field type="String" name="Name of PI">Peter Stålberg</udf:field>
+    <udf:field type="String" name="Number of samples">7</udf:field>
+    <udf:field type="String" name="Type of DNA">gDNA</udf:field>
+    <udf:field type="String" name="Type of RNA">N/A</udf:field>
+    <udf:field type="String" name="DNA library insert size">350bp</udf:field>
+    <udf:field type="String" name="Genotyping ID-panel">Yes</udf:field>
+    <udf:field type="String" name="Low complexity library">No</udf:field>
+    <udf:field type="String" name="Custom sequencing primers">No</udf:field>
+    <udf:field type="String" name="Best practice analysis">NGI-pipeline WGS</udf:field>
+    <udf:field type="String" name="Genome size"> - </udf:field>
+    <udf:field type="String" name="Project meeting">No</udf:field>
+    <file:file limsid="40-47445" uri="https://develop/api/v2/files/40-47445"/>
+    <file:file limsid="40-43697" uri="https://develop/api/v2/files/40-43697"/>
+    <file:file limsid="40-32976" uri="https://develop/api/v2/files/40-32976"/>
+    <file:file limsid="40-30590" uri="https://develop/api/v2/files/40-30590"/>
+</prj:project>

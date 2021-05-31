@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<con:container xmlns:udf="http://genologics.com/ri/userdefined" xmlns:con="http://genologics.com/ri/container" uri="https://develop/api/v2/containers/27-4492" limsid="27-4492">
+    <name>HKV5JCCXY</name>
+    <type uri="https://develop/api/v2/containertypes/13" name="Patterned Flow Cell"/>
+    <occupied-wells>8</occupied-wells>
+    <placement uri="https://develop/api/v2/artifacts/2-158981" limsid="2-158981">
+        <value>2:1</value>
+    </placement>
+    <placement uri="https://develop/api/v2/artifacts/2-158980" limsid="2-158980">
+        <value>1:1</value>
+    </placement>
+    <state>Populated</state>
+</con:container>
